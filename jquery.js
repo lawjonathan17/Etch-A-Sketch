@@ -39,6 +39,7 @@ function changesize(){
     var newsize = prompt("Select a number: \nRecommended: 4-40");
     $(".container").empty();
     inputGrid(newsize);
+    mouseenter();
   })
 }
 
